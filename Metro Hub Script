@@ -1,0 +1,115 @@
+local scripts = {
+    [286090429] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Arsenal-Aimbot/refs/heads/main/arsenal%20aimbot%20silent%20aim',
+        name = 'Arsenal'
+    },
+    [140113198028589] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Race-RNG-Script/refs/heads/main/Race%20RNG%20Script',
+        name = 'Race RNG'
+    },
+    [17800899459] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Sword-Clashers-Simulator/refs/heads/main/Sword%20Clashers%20Simulator',
+        name = 'Sword Clashers Simulator'
+    },
+    [125723653259639] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Drill-Digging-Simulator-Script/refs/heads/main/Drill%20Digging%20Simulator%20Script',
+        name = 'Drill Digging Simulator'
+    },
+    [18901165922] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/pets-go-script/refs/heads/main/pets%20go%20script',
+        name = 'Pets Go'
+    },
+    [16732694052] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/fisch-script/refs/heads/main/fisch%20script',
+        name = 'Fisch'
+    },
+    [3101667897] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Legends-Of-Speed-Script/refs/heads/main/Legends%20Of%20Speed%20Script',
+        name = 'Legends Of Speed'
+    },
+    [15862090066] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/make-and-sell-weapons-script/refs/heads/main/make%20and%20sell%20weapons%20script',
+        name = 'Make And Sell Weapons'
+    },
+    [18207529184] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Become-A-Plane-And-Fly-Script/refs/heads/main/Become%20A%20Plane%20And%20Fly%20Script',
+        name = 'Become A Plane And Fly'
+    },
+    [142823291] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MM2-Script/refs/heads/main/MM2%20Script',
+        name = 'MM2'
+    },
+    [16288616721] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Skateboard-Obby-Script/refs/heads/main/Skateboard%20Obby%20Script',
+        name = 'Skateboard Obby'
+    }
+}
+
+local universalScript = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Universal-Script/refs/heads/main/MetroHub%20Universal%20Script'
+local placeId = game.PlaceId
+local StarterGui = game:GetService("StarterGui")
+
+if scripts[placeId] then
+    loadstring(game:HttpGet(scripts[placeId].url))()
+    StarterGui:SetCore("SendNotification", {
+        Title = "Script Loaded",
+        Text = scripts[placeId].name,
+        Duration = 5
+    })
+else
+    StarterGui:SetCore("SendNotification", {
+        Title = "Unsupported Game",
+        Text = "Find Supported Games Here - https://discord.gg/jqpJKB8eMJ",
+        Duration = 10
+    })
+
+    local ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0, 250, 0, 150)
+    frame.Position = UDim2.new(0, 10, 1, -160)
+    frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    frame.BackgroundTransparency = 0.5
+    frame.Parent = ScreenGui
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Text = "This game is Unsupported. Do you want to run the Universal script?"
+    textLabel.Size = UDim2.new(1, 0, 0.4, 0)
+    textLabel.Position = UDim2.new(0, 0, 0, 0)
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    textLabel.Font = Enum.Font.Gotham
+    textLabel.TextSize = 14
+    textLabel.TextWrapped = true
+    textLabel.Parent = frame
+
+    local yesButton = Instance.new("TextButton")
+    yesButton.Text = "Yes"
+    yesButton.Size = UDim2.new(0.4, 0, 0.3, 0)
+    yesButton.Position = UDim2.new(0.05, 0, 0.55, 0)
+    yesButton.BackgroundColor3 = Color3.fromRGB(34, 177, 76)
+    yesButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    yesButton.Font = Enum.Font.GothamBold
+    yesButton.TextSize = 18
+    yesButton.Parent = frame
+
+    local noButton = Instance.new("TextButton")
+    noButton.Text = "No"
+    noButton.Size = UDim2.new(0.4, 0, 0.3, 0)
+    noButton.Position = UDim2.new(0.55, 0, 0.55, 0)
+    noButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    noButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    noButton.Font = Enum.Font.GothamBold
+    noButton.TextSize = 18
+    noButton.Parent = frame
+
+    yesButton.MouseButton1Click:Connect(function()
+        loadstring(game:HttpGet(universalScript))()
+        ScreenGui:Destroy()
+    end)
+
+    noButton.MouseButton1Click:Connect(function()
+        ScreenGui:Destroy()
+    end)
+end
