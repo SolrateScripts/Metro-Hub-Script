@@ -46,6 +46,10 @@ local scripts = {
     [16981421605] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/reborn-as-swordsman/refs/heads/main/reborn%20as%20swordsman',
         name = 'Reborn As SwordsMan'
+    },
+    [83704201064817] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Dig-the-Backyard-Script/refs/heads/main/Dig%20the%20Backyard%20Script',
+        name = 'Dig the Backyard'
     }
 }
 
