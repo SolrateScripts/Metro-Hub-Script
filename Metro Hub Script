@@ -58,6 +58,10 @@ local scripts = {
     [87039211657390] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Arise-Crossover-Script/refs/heads/main/Arise%20Crossover%20Script',
         name = 'Arise Crossover'
+    },
+    [2788229376] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Dahood-Script/refs/heads/main/Dahood%20Script',
+        name = 'Dahood'
     }
 }
 
