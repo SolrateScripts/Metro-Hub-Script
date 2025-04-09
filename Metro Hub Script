@@ -63,7 +63,7 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Dahood-Script/refs/heads/main/Dahood%20Script',
         name = 'Dahood'
     },
-    [77477180745179] = {
+    [90990170790990] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Protect-the-House-Script/refs/heads/main/Protect%20the%20House%20Script',
         name = 'Protect the House'
     }
