@@ -75,14 +75,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub/refs/heads/main/Bubble%20Gum%20Simulator%20INFINITY%20Script',
         name = 'Bubble Gum Simulator INFINITY'
     },
-    [18687417158] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHubForsaken/refs/heads/main/Forsaken%20Script',
-        name = 'Forsaken'
-    },
-    [81440632616906] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub/refs/heads/main/Dig%20to%20Earths%20Core%20Script',
-        name = 'Dig to Earths Core'
-    }
 }
 
 local universalScript = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Universal-Script/refs/heads/main/MetroHub%20Universal%20Script'
