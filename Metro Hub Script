@@ -81,7 +81,7 @@ local scripts = {
     },
     [81440632616906] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub/refs/heads/main/Dig%20to%20Earths%20Core%20Script',
-        name = ' Dig to Earths Core'
+        name = 'Dig to Earths Core'
     }
 }
 
