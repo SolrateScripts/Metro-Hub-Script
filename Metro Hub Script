@@ -70,6 +70,10 @@ local scripts = {
     [126884695634066] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Grow-A-Garden-Script/refs/heads/main/MetroHub%3A%20Grow%20A%20Garden%20Script',
         name = 'Grow a Garden'
+    },
+    [85896571713843] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub/refs/heads/main/Bubble%20Gum%20Simulator%20INFINITY%20Script',
+        name = 'Bubble Gum Simulator INFINITY'
     }
 }
 
