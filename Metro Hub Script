@@ -82,6 +82,10 @@ local scripts = {
     [81440632616906] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub/refs/heads/main/Dig%20to%20Earths%20Core%20Script',
         name = 'Dig to Earths Core'
+    },
+    [6407649031] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-noscopearcade/refs/heads/main/No%20Scope%20Arcade',
+        name = 'No Scope Arcade'
     }
 }
 
