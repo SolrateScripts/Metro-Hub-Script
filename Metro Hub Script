@@ -86,7 +86,7 @@ local scripts = {
     [6407649031] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-noscopearcade/refs/heads/main/No%20Scope%20Arcade',
         name = 'No Scope Arcade'
-    }
+    },
     [16177102748] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-noscopearcade/refs/heads/main/No%20Scope%20Arcade',
         name = 'No Scope Arcade'
