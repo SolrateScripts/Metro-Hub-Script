@@ -1,10 +1,10 @@
 local scripts = {
     [286090429] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Arsenal-Aimbot/refs/heads/main/arsenal%20aimbot%20silent%20aim',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arsenal/refs/heads/main/metrohub%20arsenal',
         name = 'Arsenal'
     },
     [140113198028589] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Race-RNG-Script/refs/heads/main/Race%20RNG%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-race-rng/refs/heads/main/metrohub%20race%20rng',
         name = 'Race RNG'
     },
     [17800899459] = {
@@ -12,15 +12,15 @@ local scripts = {
         name = 'Sword Clashers Simulator'
     },
     [125723653259639] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Drill-Digging-Simulator-Script/refs/heads/main/Drill%20Digging%20Simulator%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-drill-digging-simulator/refs/heads/main/metrohub%20drill%20digging%20simulator',
         name = 'Drill Digging Simulator'
     },
     [18901165922] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/pets-go-script/refs/heads/main/pets%20go%20script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pets-go/refs/heads/main/metrohub%20pets%20go',
         name = 'Pets Go'
     },
     [16732694052] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/fisch-script/refs/heads/main/fisch%20script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
         name = 'Fisch'
     },
     [3101667897] = {
@@ -36,7 +36,7 @@ local scripts = {
         name = 'Make And Sell Weapons'
     },
     [18207529184] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Become-A-Plane-And-Fly-Script/refs/heads/main/Become%20A%20Plane%20And%20Fly%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-become-a-plane-and-fly/refs/heads/main/metrohub%20become%20a%20plane%20and%20fly',
         name = 'Become A Plane And Fly'
     },
     [142823291] = {
@@ -56,7 +56,7 @@ local scripts = {
         name = 'Dig the Backyard'
     },
     [87039211657390] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Arise-Crossover-Script/refs/heads/main/Arise%20Crossover%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arise-crossover/refs/heads/main/metrohub%20arise%20crossover',
         name = 'Arise Crossover'
     },
     [2788229376] = {
@@ -72,15 +72,15 @@ local scripts = {
         name = 'Grow a Garden'
     },
     [85896571713843] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub/refs/heads/main/Bubble%20Gum%20Simulator%20INFINITY%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-bubble-gum-simulator-infinity/refs/heads/main/metrohub%20bubble%20gum%20simulator%20infinity',
         name = 'Bubble Gum Simulator INFINITY'
     },
     [18687417158] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHubForsaken/refs/heads/main/Forsaken%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-forsaken/refs/heads/main/metrohub%20forsaken',
         name = 'Forsaken'
     },
     [81440632616906] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub/refs/heads/main/Dig%20to%20Earths%20Core%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dig-to-earths-core/refs/heads/main/metrohub%20dig%20to%20earths%20core',
         name = 'Dig to Earths Core'
     },
     [6407649031] = {
