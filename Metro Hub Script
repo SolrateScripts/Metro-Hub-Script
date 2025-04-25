@@ -8,7 +8,7 @@ local scripts = {
         name = 'Race RNG'
     },
     [17800899459] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Sword-Clashers-Simulator/refs/heads/main/Sword%20Clashers%20Simulator',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-sword-clashers-simulator/refs/heads/main/metrohub%20sword%20clashers%20simulator',
         name = 'Sword Clashers Simulator'
     },
     [125723653259639] = {
@@ -24,15 +24,15 @@ local scripts = {
         name = 'Fisch'
     },
     [3101667897] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Legends-Of-Speed-Script/refs/heads/main/Legends%20Of%20Speed%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-legends-of-speed/refs/heads/main/metrohub%20legends%20of%20speed',
         name = 'Legends Of Speed'
     },
     [3276265788] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Legends-Of-Speed-Script/refs/heads/main/Legends%20Of%20Speed%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-legends-of-speed/refs/heads/main/metrohub%20legends%20of%20speed',
         name = 'Legends Of Speed'
     },
     [15862090066] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/make-and-sell-weapons-script/refs/heads/main/make%20and%20sell%20weapons%20script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-make-and-sell-weapons-script/refs/heads/main/metrohub%20make%20and%20sell%20weapons%20script',
         name = 'Make And Sell Weapons'
     },
     [18207529184] = {
@@ -40,15 +40,15 @@ local scripts = {
         name = 'Become A Plane And Fly'
     },
     [142823291] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MM2-Script/refs/heads/main/MM2%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-mm2---murder-mystery-2/refs/heads/main/metrohub%20mm2%20-%20murder%20mystery%202',
         name = 'MM2'
     },
     [16288616721] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Skateboard-Obby-Script/refs/heads/main/Skateboard%20Obby%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-skateboard-obby/refs/heads/main/metrohub%20skateboard%20obby',
         name = 'Skateboard Obby'
     },
     [16981421605] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/reborn-as-swordsman/refs/heads/main/reborn%20as%20swordsman',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-reborn-as-swordsman/refs/heads/main/metrohub%20reborn%20as%20swordsman',
         name = 'Reborn As SwordsMan'
     },
     [109652885385286] = {
@@ -64,11 +64,11 @@ local scripts = {
         name = 'Dahood'
     },
     [90990170790990] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Protect-the-House-Script/refs/heads/main/Protect%20the%20House%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-protect-the-house/refs/heads/main/metrohub%20protect%20the%20house',
         name = 'Protect the House'
     },
     [126884695634066] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Grow-A-Garden-Script/refs/heads/main/MetroHub%3A%20Grow%20A%20Garden%20Script',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-grow-a-garden/refs/heads/main/metrohub%20grow%20a%20garden',
         name = 'Grow a Garden'
     },
     [85896571713843] = {
@@ -84,16 +84,16 @@ local scripts = {
         name = 'Dig to Earths Core'
     },
     [6407649031] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-noscopearcade/refs/heads/main/No%20Scope%20Arcade',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-no-scope-arcade/refs/heads/main/metrohub%20no%20scope%20arcade',
         name = 'No Scope Arcade'
     },
     [16177102748] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-noscopearcade/refs/heads/main/No%20Scope%20Arcade',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-no-scope-arcade/refs/heads/main/metrohub%20no%20scope%20arcade',
         name = 'No Scope Arcade'
     }
 }
 
-local universalScript = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Universal-Script/refs/heads/main/MetroHub%20Universal%20Script'
+local universalScript = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Universal/refs/heads/main/Metrohub%20Universal'
 local placeId = game.PlaceId
 local StarterGui = game:GetService("StarterGui")
 
@@ -107,7 +107,7 @@ if scripts[placeId] then
 else
     StarterGui:SetCore("SendNotification", {
         Title = "Unsupported Game",
-        Text = "Find Supported Games Here - https://discord.gg/jqpJKB8eMJ",
+        Text = "Find Supported Games Here - https://discord.gg/Hhf3gB7RXV",
         Duration = 10
     })
 
