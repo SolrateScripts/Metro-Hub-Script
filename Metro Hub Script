@@ -90,6 +90,14 @@ local scripts = {
     [16177102748] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-no-scope-arcade/refs/heads/main/metrohub%20no%20scope%20arcade',
         name = 'No Scope Arcade'
+    },
+    [87700573492940] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-untitled-drill-game/refs/heads/main/metrohub%20untitled%20drill%20game',
+        name = 'Untitled Drill Game'
+    },
+    [123410273444568] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-hatch-a-duck/refs/heads/main/metrohub%20hatch%20a%20duck',
+        name = 'Hatch a Duck'
     }
 }
 
