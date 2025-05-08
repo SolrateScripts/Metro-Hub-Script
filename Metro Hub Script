@@ -98,6 +98,14 @@ local scripts = {
     [123410273444568] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-hatch-a-duck/refs/heads/main/metrohub%20hatch%20a%20duck',
         name = 'Hatch a Duck'
+    },
+    [8737899170] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
+        name = 'Pet Simulator 99'
+    },
+    [16498369169] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
+        name = 'Pet Simulator 99'
     }
 }
 
