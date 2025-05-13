@@ -114,6 +114,22 @@ local scripts = {
     [17503543197] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
         name = 'Pet Simulator 99'
+    },
+    [13827198708] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Pull-a-Sword/refs/heads/main/Pull-a-Sword',
+        name = 'Pull a Sword'
+    },
+    [74260430392611] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Rebirth-Champions/refs/heads/main/Rebirth-Champions',
+        name = 'Rebirth Champions: Ultimate'
+    },
+    [103439779532083] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Grow-Crystals/refs/heads/main/Grow-Crystals',
+        name = 'Grow Crystals'
+    },
+    [13127800756] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Arm-Wrestle-Simulator/refs/heads/main/Arm-Wrestle-Simulator',
+        name = 'Arm Wrestle Simulator'
     }
 }
 
