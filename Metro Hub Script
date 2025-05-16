@@ -130,6 +130,10 @@ local scripts = {
     [13127800756] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Arm-Wrestle-Simulator/refs/heads/main/Arm-Wrestle-Simulator',
         name = 'Arm Wrestle Simulator'
+    },
+    [114113024880209] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Sisyphus-Training/refs/heads/main/Sisyphus%20Training',
+        name = 'Sisyphus Training'
     }
 }
 
