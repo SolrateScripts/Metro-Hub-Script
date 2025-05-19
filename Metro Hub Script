@@ -115,6 +115,10 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
         name = 'Pet Simulator 99'
     },
+    [119454325063278] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
+        name = 'Pet Simulator 99'
+    },
     [13827198708] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Pull-a-Sword/refs/heads/main/Pull-a-Sword',
         name = 'Pull a Sword'
@@ -134,6 +138,10 @@ local scripts = {
     [114113024880209] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Sisyphus-Training/refs/heads/main/Sisyphus%20Training',
         name = 'Sisyphus Training'
+    },
+    [114113024880209] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Dig-To-Build/refs/heads/main/Dig%20To%20Build%20Script',
+        name = 'Dig to Build'
     }
 }
 
