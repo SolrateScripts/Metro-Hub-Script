@@ -142,6 +142,10 @@ local scripts = {
     [15327256235] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Dig-To-Build/refs/heads/main/Dig%20To%20Build%20Script',
         name = 'Dig to Build'
+    },
+    [101645554076038] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Paper-Plane-Simulator/refs/heads/main/Paper%20Plane%20Simulator%20Script',
+        name = 'Paper Plane Simulator'
     }
 }
 
