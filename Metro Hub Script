@@ -23,6 +23,10 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
         name = 'Fisch'
     },
+    [131716211654599] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
+        name = 'Fisch'
+    },
     [3101667897] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-legends-of-speed/refs/heads/main/metrohub%20legends%20of%20speed',
         name = 'Legends Of Speed'
