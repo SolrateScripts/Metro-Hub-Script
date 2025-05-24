@@ -150,6 +150,10 @@ local scripts = {
     [101645554076038] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Paper-Plane-Simulator/refs/heads/main/Paper%20Plane%20Simulator%20Script',
         name = 'Paper Plane Simulator'
+    },
+    [101949297449238] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Build-An-Island-/refs/heads/main/Build%20An%20Island',
+        name = 'Build An Island'
     }
 }
 
