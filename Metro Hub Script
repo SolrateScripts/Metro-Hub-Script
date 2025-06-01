@@ -154,6 +154,10 @@ local scripts = {
     [101949297449238] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Build-An-Island-/refs/heads/main/Build%20An%20Island',
         name = 'Build An Island'
+    },
+    [16498193900] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
     }
 }
 
