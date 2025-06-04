@@ -159,6 +159,30 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
         name = 'Lootify'
     },
+    [78229412451597] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
+    },
+    [96906678295592] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
+    },
+    [109827788024812] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
+    },
+    [117117046606859] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
+    },
+    [138978527508711] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
+    },
+    [140616130808907] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
+        name = 'Lootify'
+    },
     [136195938137126] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Rope-Battles/refs/heads/main/Rope%20Battles%20Script',
         name = 'Rope Battles'
