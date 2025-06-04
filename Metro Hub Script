@@ -35,6 +35,10 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-legends-of-speed/refs/heads/main/metrohub%20legends%20of%20speed',
         name = 'Legends Of Speed'
     },
+    [3232996272] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-legends-of-speed/refs/heads/main/metrohub%20legends%20of%20speed',
+        name = 'Legends Of Speed'
+    },
     [15862090066] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-make-and-sell-weapons-script/refs/heads/main/metrohub%20make%20and%20sell%20weapons%20script',
         name = 'Make And Sell Weapons'
