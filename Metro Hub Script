@@ -218,6 +218,10 @@ local scripts = {
     [117398147513099] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
         name = 'Rivals'
+    },
+    [115768850114658] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Grow-Dinosaurs/refs/heads/main/Grow%20Dinosaurs%20Script',
+        name = 'Grow Dinosaurs'
     }
 }
 
