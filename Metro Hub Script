@@ -227,10 +227,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dig-a-Garden/refs/heads/main/Dig%20a%20Garden%20Script',
         name = 'Dig a Garden'
     },
-    [103593441753340] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
-        name = 'Find the Button'
-    },
     [93262065013106] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-Things/refs/heads/main/Find%20Things%20Script',
         name = 'Find Things'
@@ -250,6 +246,30 @@ local scripts = {
     [18442824136] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Obby-But-Your-A-Parkour-Master/refs/heads/main/Obby%20But%20Your%20A%20Parkour%20Master%20Script',
         name = 'Obby But Your a Parkour Master'
+    },
+    [103593441753340] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
+    },
+    [82775216869079] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
+    },
+    [103593441753340] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
+    },
+    [111232582109695] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
+    },
+    [122439667013864] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
+    },
+    [125220727491945] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
     }
 }
 
