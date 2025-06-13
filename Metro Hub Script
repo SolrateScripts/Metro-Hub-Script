@@ -222,6 +222,34 @@ local scripts = {
     [115768850114658] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Grow-Dinosaurs/refs/heads/main/Grow%20Dinosaurs%20Script',
         name = 'Grow Dinosaurs'
+    },
+    [71938615681096] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dig-a-Garden/refs/heads/main/Dig%20a%20Garden%20Script',
+        name = 'Dig a Garden'
+    },
+    [103593441753340] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
+        name = 'Find the Button'
+    },
+    [93262065013106] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-Things/refs/heads/main/Find%20Things%20Script',
+        name = 'Find Things'
+    },
+    [123921593837160] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Climb-and-Jump-Tower/refs/heads/main/Climb%20and%20Jump%20Tower%20Script',
+        name = 'Climb and Jump Tower'
+    },
+    [16570906386] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Battle-Ages/refs/heads/main/Battle%20Ages%20Script',
+        name = 'Battle Ages'
+    },
+    [15182754666] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ninja-Parkour/refs/heads/main/Ninja%20Parkour%20Script',
+        name = 'Ninja Parkour'
+    },
+    [18442824136] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Obby-But-Your-A-Parkour-Master/refs/heads/main/Obby%20But%20Your%20A%20Parkour%20Master%20Script',
+        name = 'Obby But Your a Parkour Master'
     }
 }
 
