@@ -270,6 +270,34 @@ local scripts = {
     [125220727491945] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Find-the-Button/refs/heads/main/Find%20the%20Button%20Script',
         name = 'Find the Button'
+    },
+    [10449761463] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-The-Strongest-Battlegrounds/refs/heads/main/The%20Strongest%20Battlegrounds%20Script',
+        name = 'The Strongest Battlegrounds'
+    },
+    [73727760725654] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-a-Capybara/refs/heads/main/Steal%20a%20Capybara%20Script',
+        name = 'Steal a Capybara'
+    },
+    [115822424270425] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Raise-a-Farm/refs/heads/main/Raise%20a%20Farm%20Script',
+        name = 'Raise a Farm'
+    },
+    [124387865885397] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Merge-Brainrot/refs/heads/main/Merge%20Brainrot%20Script',
+        name = 'Merge Brainrot'
+    },
+    [89726090098716] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Grow-Eggs/refs/heads/main/Grow%20Eggs%20Script',
+        name = 'Grow Eggs'
+    },
+    [134126723742818] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Brainrot-Garden/refs/heads/main/Brainrot%20Garden%20Script',
+        name = 'Brainrot Garden'
+    },
+    [18668065416] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Blue-Lock-Rivals/refs/heads/main/Blue%20Lock%3A%20Rivals%20Script',
+        name = 'Blue Lock: Rivals'
     }
 }
 
