@@ -298,6 +298,10 @@ local scripts = {
     [18668065416] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Blue-Lock-Rivals/refs/heads/main/Blue%20Lock%3A%20Rivals%20Script',
         name = 'Blue Lock: Rivals'
+    },
+    [9872472334] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Evade/refs/heads/main/Evade%20Script',
+        name = 'Evade'
     }
 }
 
