@@ -87,6 +87,10 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
         name = 'Zee Hood'
     },
+    [125168535552831] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
+        name = 'Dan FFA'
+    },
     [90990170790990] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-protect-the-house/refs/heads/main/metrohub%20protect%20the%20house',
         name = 'Protect the House'
