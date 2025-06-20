@@ -73,15 +73,19 @@ local scripts = {
     },
     [75794032748975] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
-        name = 'Dahood'
+        name = 'Da Hills'
     },
     [103539521748777] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
-        name = 'Dahood'
+        name = 'Flame Hood'
     },
     [15186202290] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
-        name = 'Dahood'
+        name = 'Da Strike'
+    },
+    [134943040131208] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
+        name = 'Zee Hood'
     },
     [90990170790990] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-protect-the-house/refs/heads/main/metrohub%20protect%20the%20house',
