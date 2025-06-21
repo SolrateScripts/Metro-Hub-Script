@@ -310,6 +310,10 @@ local scripts = {
     [9872472334] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Evade/refs/heads/main/Evade%20Script',
         name = 'Evade'
+    },
+    [3823781113] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Saber-Simulator/refs/heads/main/Saber%20Simulator%20Script',
+        name = 'Saber Simulator'
     }
 }
 
