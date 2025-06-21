@@ -317,7 +317,7 @@ local scripts = {
     }
 }
 
-local universalScript = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Universal/refs/heads/main/Metrohub%20Universal'
+local universalScript = 'https://pastebin.com/raw/AdYM7W6S'
 local placeId = game.PlaceId
 local StarterGui = game:GetService("StarterGui")
 
