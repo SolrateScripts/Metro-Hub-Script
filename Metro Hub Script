@@ -314,6 +314,10 @@ local scripts = {
     [3823781113] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Saber-Simulator/refs/heads/main/Saber%20Simulator%20Script',
         name = 'Saber Simulator'
+    },
+    [72515236628292] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Fly-to-Space/refs/heads/main/Fly%20to%20Space%20Script',
+        name = 'Fly to Space'
     }
 }
 
