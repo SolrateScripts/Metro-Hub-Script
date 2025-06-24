@@ -318,6 +318,14 @@ local scripts = {
     [72515236628292] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Fly-to-Space/refs/heads/main/Fly%20to%20Space%20Script',
         name = 'Fly to Space'
+    },
+    [135856908115931] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-DUELS-Murderers-VS-Sheriffs/refs/heads/main/Murderers%20VS%20Sheriffs%20Script',
+        name = 'DUELS - Murderers VS Sheriffs'
+    },
+    [12355337193] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Murderer-VS-Sheriff-duels/refs/heads/main/Murderer%20VS%20Sheriff%20Duels%20Script',
+        name = 'Murderers VS Sheriffs DUELS'
     }
 }
 
