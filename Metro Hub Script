@@ -326,6 +326,10 @@ local scripts = {
     [12355337193] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Murderer-VS-Sheriff-duels/refs/heads/main/Murderer%20VS%20Sheriff%20Duels%20Script',
         name = 'Murderers VS Sheriffs DUELS'
+    },
+    [136755111277466] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Anime-Shadow-2/refs/heads/main/Anime%20Shadow%202%20Script',
+        name = 'Anime Shadow 2'
     }
 }
 
