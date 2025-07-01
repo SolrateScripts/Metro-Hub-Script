@@ -342,6 +342,10 @@ local scripts = {
     [125009265613167] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
         name = 'Ink Game'
+    },
+    [121431824618615] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
+        name = 'Ink Game'
     }
 }
 
