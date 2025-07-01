@@ -330,6 +330,14 @@ local scripts = {
     [136755111277466] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Anime-Shadow-2/refs/heads/main/Anime%20Shadow%202%20Script',
         name = 'Anime Shadow 2'
+    },
+    [7554888362] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Squid-Game-X/refs/heads/main/Squid%20Game%20X',
+        name = 'Squid Game X'
+    },
+    [99567941238278] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
+        name = 'Ink Game'
     }
 }
 
