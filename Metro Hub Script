@@ -354,6 +354,14 @@ local scripts = {
     [121431824618615] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
         name = 'Ink Game'
+    },
+    [79546208627805] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-99-Nights-In-The-Forest/refs/heads/main/99%20Nights%20In%20The%20Forest%20Script',
+        name = '99 Nights In The Forest'
+    },
+    [126509999114328] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-99-Nights-In-The-Forest/refs/heads/main/99%20Nights%20In%20The%20Forest%20Script',
+        name = '99 Nights In The Forest'
     }
 }
 
