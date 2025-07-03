@@ -365,6 +365,7 @@ local scripts = {
     }
 }
 
+
 local universalScript = 'https://pastebin.com/raw/AdYM7W6S'
 local placeId = game.PlaceId
 local StarterGui = game:GetService("StarterGui")
@@ -383,53 +384,88 @@ else
         Duration = 10
     })
 
+    local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     local ScreenGui = Instance.new("ScreenGui")
-    ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    ScreenGui.Name = "UniversalScriptPrompt"
+    ScreenGui.Parent = playerGui
 
     local frame = Instance.new("Frame")
-    frame.Size = UDim2.new(0, 250, 0, 150)
-    frame.Position = UDim2.new(0, 10, 1, -160)
-    frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    frame.BackgroundTransparency = 0.5
+    frame.Size = UDim2.new(0, 320, 0, 180)
+    frame.Position = UDim2.new(0, 20, 1, -200)
+    frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    frame.BorderSizePixel = 0
+    frame.ClipsDescendants = true
     frame.Parent = ScreenGui
 
+    -- Rounded corners
+    local uICorner = Instance.new("UICorner")
+    uICorner.CornerRadius = UDim.new(0, 12)
+    uICorner.Parent = frame
+
+    -- Drop shadow (via a subtle frame behind the main frame)
+    local shadow = Instance.new("Frame")
+    shadow.Size = frame.Size + UDim2.new(0, 8, 0, 8)
+    shadow.Position = frame.Position - UDim2.new(0, 4, 0, 4)
+    shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    shadow.BackgroundTransparency = 0.75
+    shadow.ZIndex = frame.ZIndex - 1
+    shadow.ClipsDescendants = true
+    shadow.Parent = ScreenGui
+
+    local shadowCorner = Instance.new("UICorner")
+    shadowCorner.CornerRadius = UDim.new(0, 14)
+    shadowCorner.Parent = shadow
+
     local textLabel = Instance.new("TextLabel")
-    textLabel.Text = "This game is Unsupported. Do you want to run the Universal script?"
-    textLabel.Size = UDim2.new(1, 0, 0.4, 0)
-    textLabel.Position = UDim2.new(0, 0, 0, 0)
+    textLabel.Text = "Unsupported Game Detected.\nDo you want to run the Universal script?"
+    textLabel.Size = UDim2.new(1, -40, 0, 90)
+    textLabel.Position = UDim2.new(0, 20, 0, 20)
     textLabel.BackgroundTransparency = 1
-    textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-    textLabel.Font = Enum.Font.Gotham
-    textLabel.TextSize = 14
+    textLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
+    textLabel.Font = Enum.Font.GothamSemibold
+    textLabel.TextSize = 18
     textLabel.TextWrapped = true
+    textLabel.TextYAlignment = Enum.TextYAlignment.Top
     textLabel.Parent = frame
 
-    local yesButton = Instance.new("TextButton")
-    yesButton.Text = "Yes"
-    yesButton.Size = UDim2.new(0.4, 0, 0.3, 0)
-    yesButton.Position = UDim2.new(0.05, 0, 0.55, 0)
-    yesButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    yesButton.TextColor3 = Color3.fromRGB(173, 216, 230)
-    yesButton.Font = Enum.Font.GothamBold
-    yesButton.TextSize = 18
-    yesButton.Parent = frame
+local function createDarkButton(text, baseColor, hoverColor, position)
+    local button = Instance.new("TextButton")
+    button.Text = text
+    button.Size = UDim2.new(0.4, 0, 0, 44)
+    button.Position = position
+    button.BackgroundColor3 = baseColor
+    button.TextColor3 = Color3.fromRGB(230, 230, 230)
+    button.Font = Enum.Font.GothamBold
+    button.TextSize = 20
+    button.AutoButtonColor = false
+    button.Parent = frame
 
-    local noButton = Instance.new("TextButton")
-    noButton.Text = "No"
-    noButton.Size = UDim2.new(0.4, 0, 0.3, 0)
-    noButton.Position = UDim2.new(0.55, 0, 0.55, 0)
-    noButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    noButton.TextColor3 = Color3.fromRGB(255, 182, 193)
-    noButton.Font = Enum.Font.GothamBold
-    noButton.TextSize = 18
-    noButton.Parent = frame
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 10)
+    corner.Parent = button
+
+    button.MouseEnter:Connect(function()
+        button.BackgroundColor3 = hoverColor
+    end)
+    button.MouseLeave:Connect(function()
+        button.BackgroundColor3 = baseColor
+    end)
+
+    return button
+end
+
+local yesButton = createDarkButton("Yes", Color3.fromRGB(35, 38, 43), Color3.fromRGB(60, 75, 100), UDim2.new(0.05, 0, 0.65, 0))
+local noButton = createDarkButton("No", Color3.fromRGB(35, 38, 43), Color3.fromRGB(100, 50, 50), UDim2.new(0.55, 0, 0.65, 0))
+
 
     yesButton.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet(universalScript))()
         ScreenGui:Destroy()
+        shadow:Destroy()
     end)
 
     noButton.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
+        shadow:Destroy()
     end)
 end
