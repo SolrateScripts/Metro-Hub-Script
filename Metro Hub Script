@@ -367,6 +367,10 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Stick-Battles/refs/heads/main/Stick%20Battles%20Script',
         name = 'Stick Battles'
     },
+    [116495829188952] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dead-Rails/refs/heads/main/Dead%20Rails%20Script',
+        name = 'Dead Rails'
+    },
     [70876832253163] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dead-Rails/refs/heads/main/Dead%20Rails%20Script',
         name = 'Dead Rails'
