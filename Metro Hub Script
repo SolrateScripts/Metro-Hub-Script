@@ -374,6 +374,18 @@ local scripts = {
     [70876832253163] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dead-Rails/refs/heads/main/Dead%20Rails%20Script',
         name = 'Dead Rails'
+    },
+    [96342491571673] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
+        name = 'Steal a Brainrot'
+    },
+    [109983668079237] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
+        name = 'Steal a Brainrot'
+    },
+    [128762245270197] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
+        name = 'Steal a Brainrot'
     }
 }
 
