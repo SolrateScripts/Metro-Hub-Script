@@ -344,15 +344,15 @@ local scripts = {
         name = 'Squid Game X'
     },
     [99567941238278] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Games',
         name = 'Ink Game'
     },
     [125009265613167] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Games',
         name = 'Ink Game'
     },
     [121431824618615] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Game',
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Games',
         name = 'Ink Game'
     },
     [79546208627805] = {
