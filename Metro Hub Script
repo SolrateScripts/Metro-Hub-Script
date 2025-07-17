@@ -159,10 +159,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Evade/refs/heads/main/Evade%20Script',
         name = 'Evade'
     },
-    [3823781113] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Saber-Simulator/refs/heads/main/Saber%20Simulator%20Script',
-        name = 'Saber Simulator'
-    },
     [135856908115931] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-DUELS-Murderers-VS-Sheriffs/refs/heads/main/Murderers%20VS%20Sheriffs%20Script',
         name = 'DUELS - Murderers VS Sheriffs'
