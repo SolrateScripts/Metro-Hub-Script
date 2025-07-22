@@ -226,6 +226,10 @@ local scripts = {
     [128762245270197] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
         name = 'Steal a Brainrot'
+    },
+    [11276071411] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-NPC-or-DIE/refs/heads/main/NPC%20or%20DIE%20Script',
+        name = 'NPC or DIE'
     }
 }
 
