@@ -230,6 +230,10 @@ local scripts = {
     [11276071411] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-NPC-or-DIE/refs/heads/main/NPC%20or%20DIE%20Script',
         name = 'NPC or DIE'
+    },
+    [89343390950953] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-My-Singing-Brainrot/refs/heads/main/My%20Singing%20Brainrot%20Script',
+        name = 'My Singing Brainrot'
     }
 }
 
