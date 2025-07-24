@@ -237,6 +237,10 @@ local scripts = {
     [89343390950953] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-My-Singing-Brainrot/refs/heads/main/My%20Singing%20Brainrot%20Script',
         name = 'My Singing Brainrot'
+    },
+    [70884301843006] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Untitled-Fishing-Game/refs/heads/main/Untitled%20Fishing%20Game%20Script',
+        name = 'Untitled Fishing Game'
     }
 }
 
