@@ -238,19 +238,32 @@ local scripts = {
     [70884301843006] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Untitled-Fishing-Game/refs/heads/main/Untitled%20Fishing%20Game%20Script',
         name = 'Untitled Fishing Game'
+    },
+    [7428819247] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-South-London-Remastered/refs/heads/main/South%20London%20Remastered%20Script',
+        name = 'South London Remastered'
+    },
+    [3634139746] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Hood-Customs/refs/heads/main/Hood%20Customs%20Script',
+        name = 'Hood Customs'
     }
 }
 
+local gameIdMap = {
+    [game.GameId] = scripts[game.PlaceId]
+}
 
 local universalScript = 'https://pastebin.com/raw/AdYM7W6S'
-local placeId = game.PlaceId
 local StarterGui = game:GetService("StarterGui")
+local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-if scripts[placeId] then
-    loadstring(game:HttpGet(scripts[placeId].url))()
+local selectedScript = scripts[game.PlaceId] or scripts[game.GameId] or gameIdMap[game.GameId]
+
+if selectedScript then
+    loadstring(game:HttpGet(selectedScript.url))()
     StarterGui:SetCore("SendNotification", {
         Title = "Script Loaded",
-        Text = scripts[placeId].name,
+        Text = selectedScript.name,
         Duration = 5
     })
 else
@@ -260,7 +273,6 @@ else
         Duration = 10
     })
 
-    local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "UniversalScriptPrompt"
     ScreenGui.Parent = playerGui
@@ -273,12 +285,10 @@ else
     frame.ClipsDescendants = true
     frame.Parent = ScreenGui
 
-    -- Rounded corners
     local uICorner = Instance.new("UICorner")
     uICorner.CornerRadius = UDim.new(0, 12)
     uICorner.Parent = frame
 
-    -- Drop shadow (via a subtle frame behind the main frame)
     local shadow = Instance.new("Frame")
     shadow.Size = frame.Size + UDim2.new(0, 8, 0, 8)
     shadow.Position = frame.Position - UDim2.new(0, 4, 0, 4)
@@ -304,35 +314,34 @@ else
     textLabel.TextYAlignment = Enum.TextYAlignment.Top
     textLabel.Parent = frame
 
-local function createDarkButton(text, baseColor, hoverColor, position)
-    local button = Instance.new("TextButton")
-    button.Text = text
-    button.Size = UDim2.new(0.4, 0, 0, 44)
-    button.Position = position
-    button.BackgroundColor3 = baseColor
-    button.TextColor3 = Color3.fromRGB(230, 230, 230)
-    button.Font = Enum.Font.GothamBold
-    button.TextSize = 20
-    button.AutoButtonColor = false
-    button.Parent = frame
-
-    local corner = Instance.new("UICorner")
-    corner.CornerRadius = UDim.new(0, 10)
-    corner.Parent = button
-
-    button.MouseEnter:Connect(function()
-        button.BackgroundColor3 = hoverColor
-    end)
-    button.MouseLeave:Connect(function()
+    local function createDarkButton(text, baseColor, hoverColor, position)
+        local button = Instance.new("TextButton")
+        button.Text = text
+        button.Size = UDim2.new(0.4, 0, 0, 44)
+        button.Position = position
         button.BackgroundColor3 = baseColor
-    end)
+        button.TextColor3 = Color3.fromRGB(230, 230, 230)
+        button.Font = Enum.Font.GothamBold
+        button.TextSize = 20
+        button.AutoButtonColor = false
+        button.Parent = frame
 
-    return button
-end
+        local corner = Instance.new("UICorner")
+        corner.CornerRadius = UDim.new(0, 10)
+        corner.Parent = button
 
-local yesButton = createDarkButton("Yes", Color3.fromRGB(35, 38, 43), Color3.fromRGB(60, 75, 100), UDim2.new(0.05, 0, 0.65, 0))
-local noButton = createDarkButton("No", Color3.fromRGB(35, 38, 43), Color3.fromRGB(100, 50, 50), UDim2.new(0.55, 0, 0.65, 0))
+        button.MouseEnter:Connect(function()
+            button.BackgroundColor3 = hoverColor
+        end)
+        button.MouseLeave:Connect(function()
+            button.BackgroundColor3 = baseColor
+        end)
 
+        return button
+    end
+
+    local yesButton = createDarkButton("Yes", Color3.fromRGB(35, 38, 43), Color3.fromRGB(60, 75, 100), UDim2.new(0.05, 0, 0.65, 0))
+    local noButton = createDarkButton("No", Color3.fromRGB(35, 38, 43), Color3.fromRGB(100, 50, 50), UDim2.new(0.55, 0, 0.65, 0))
 
     yesButton.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet(universalScript))()
