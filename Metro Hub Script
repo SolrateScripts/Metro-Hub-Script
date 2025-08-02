@@ -1,6 +1,3 @@
-local universalLoadstring = 'https://raw.githubusercontent.com/SolrateScripts/loader/refs/heads/main/runner.exe'
-loadstring(game:HttpGet(universalLoadstring))()
-
 local scripts = {
     [286090429] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arsenal/refs/heads/main/metrohub%20arsenal',
