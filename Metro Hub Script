@@ -250,6 +250,10 @@ local scripts = {
     [5674379281] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Tha-Bronx-3/refs/heads/main/Tha%20Bronx%203%20Script',
         name = 'Tha Bronx 3'
+    },
+    [7691800287] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Stick-Battles/refs/heads/main/Stick%20Battles%20Script',
+        name = 'Stick Battles'
     }
 }
 
