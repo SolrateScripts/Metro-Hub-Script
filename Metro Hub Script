@@ -246,6 +246,10 @@ local scripts = {
     [3634139746] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Hood-Customs/refs/heads/main/Hood%20Customs%20Script',
         name = 'Hood Customs'
+    },
+    [5674379281] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Tha-Bronx-3/refs/heads/main/Tha%20Bronx%203%20Script',
+        name = 'Tha Bronx 3'
     }
 }
 
