@@ -123,10 +123,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
         name = 'Lootify'
     },
-    [136195938137126] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Rope-Battles/refs/heads/main/Rope%20Battles%20Script',
-        name = 'Rope Battles'
-    },
     [17625359962] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
         name = 'Rivals'
