@@ -250,6 +250,10 @@ local scripts = {
     [7691800287] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Stick-Battles/refs/heads/main/Stick%20Battles%20Script',
         name = 'Stick Battles'
+    },
+    [7662333120] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Kayak-Racing/refs/heads/main/Kayak%20Racing%20Script',
+        name = 'Kayak Racing'
     }
 }
 
