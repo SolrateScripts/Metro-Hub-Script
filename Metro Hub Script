@@ -3,10 +3,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arsenal/refs/heads/main/metrohub%20arsenal',
         name = 'Arsenal'
     },
-    [18901165922] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pets-go/refs/heads/main/metrohub%20pets%20go',
-        name = 'Pets Go'
-    },
     [16732694052] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
         name = 'Fisch'
