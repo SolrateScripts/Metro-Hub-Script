@@ -119,19 +119,7 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
         name = 'Lootify'
     },
-    [17625359962] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
-        name = 'Rivals'
-    },
-    [18126510175] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
-        name = 'Rivals'
-    },
-    [71874690745115] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
-        name = 'Rivals'
-    },
-    [117398147513099] = {
+    [6035872082] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
         name = 'Rivals'
     },
