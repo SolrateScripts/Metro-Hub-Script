@@ -1,3 +1,12 @@
+
+--// Services
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+--// Script mappings
 local scripts = {
     [286090429] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arsenal/refs/heads/main/metrohub%20arsenal',
@@ -241,30 +250,44 @@ local scripts = {
     }
 }
 
-local gameIdMap = {
-    [game.GameId] = scripts[game.PlaceId]
-}
+--// Universal fallback script
+local universalScript = "https://pastebin.com/raw/AdYM7W6S"
 
-local universalScript = 'https://pastebin.com/raw/AdYM7W6S'
-local StarterGui = game:GetService("StarterGui")
-local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+--// Select script (priority: PlaceId > GameId)
+local selectedScript = scripts[game.PlaceId] or scripts[game.GameId]
 
-local selectedScript = scripts[game.PlaceId] or scripts[game.GameId] or gameIdMap[game.GameId]
-
+--// Loader
 if selectedScript then
-    loadstring(game:HttpGet(selectedScript.url))()
-    StarterGui:SetCore("SendNotification", {
-        Title = "Script Loaded",
-        Text = selectedScript.name,
-        Duration = 5
-    })
+    task.spawn(function()
+        local success, response = pcall(function()
+            return game:HttpGet(selectedScript.url)
+        end)
+
+        if success and response then
+            local fn, loadErr = loadstring(response)
+            if fn then
+                fn()
+                StarterGui:SetCore("SendNotification", {
+                    Title = "Script Loaded",
+                    Text = selectedScript.name,
+                    Duration = 5
+                })
+            else
+                warn("Loadstring error: ", loadErr)
+            end
+        else
+            warn("HttpGet failed: ", response)
+        end
+    end)
 else
+    -- Notify unsupported game
     StarterGui:SetCore("SendNotification", {
         Title = "Unsupported Game",
         Text = "Find Supported Games Here - https://discord.gg/Hhf3gB7RXV",
         Duration = 10
     })
 
+    -- Fallback GUI
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "UniversalScriptPrompt"
     ScreenGui.Parent = playerGui
@@ -274,25 +297,11 @@ else
     frame.Position = UDim2.new(0, 20, 1, -200)
     frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
     frame.BorderSizePixel = 0
-    frame.ClipsDescendants = true
     frame.Parent = ScreenGui
 
     local uICorner = Instance.new("UICorner")
     uICorner.CornerRadius = UDim.new(0, 12)
     uICorner.Parent = frame
-
-    local shadow = Instance.new("Frame")
-    shadow.Size = frame.Size + UDim2.new(0, 8, 0, 8)
-    shadow.Position = frame.Position - UDim2.new(0, 4, 0, 4)
-    shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    shadow.BackgroundTransparency = 0.75
-    shadow.ZIndex = frame.ZIndex - 1
-    shadow.ClipsDescendants = true
-    shadow.Parent = ScreenGui
-
-    local shadowCorner = Instance.new("UICorner")
-    shadowCorner.CornerRadius = UDim.new(0, 14)
-    shadowCorner.Parent = shadow
 
     local textLabel = Instance.new("TextLabel")
     textLabel.Text = "Unsupported Game Detected.\nDo you want to run the Universal script?"
@@ -336,13 +345,17 @@ else
     local noButton = createDarkButton("No", Color3.fromRGB(35, 38, 43), Color3.fromRGB(100, 50, 50), UDim2.new(0.55, 0, 0.65, 0))
 
     yesButton.MouseButton1Click:Connect(function()
-        loadstring(game:HttpGet(universalScript))()
+        local ok, resp = pcall(function()
+            return game:HttpGet(universalScript)
+        end)
+        if ok and resp then
+            local fn = loadstring(resp)
+            if fn then fn() end
+        end
         ScreenGui:Destroy()
-        shadow:Destroy()
     end)
 
     noButton.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
-        shadow:Destroy()
     end)
 end
