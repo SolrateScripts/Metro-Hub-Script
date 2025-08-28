@@ -234,6 +234,10 @@ local scripts = {
     [8029270163] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-South-London/refs/heads/main/South%20London%20Script',
         name = 'South London'
+    },
+    [7750955984] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Hunty-Zombie/refs/heads/main/Hunty%20Zombie%20Script',
+        name = 'Hunty Zombie'
     }
 }
 
