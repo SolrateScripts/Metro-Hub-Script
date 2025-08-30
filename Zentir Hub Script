@@ -1,12 +1,10 @@
 
---// Services
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
---// Script mappings
 local scripts = {
     [286090429] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arsenal/refs/heads/main/metrohub%20arsenal',
@@ -258,13 +256,10 @@ local scripts = {
     }
 }
 
---// Universal fallback script
-local universalScript = "https://pastebin.com/raw/AdYM7W6S"
+local universalScript = "https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Universal/refs/heads/main/Universal%20Script"
 
---// Select script (priority: PlaceId > GameId)
 local selectedScript = scripts[game.PlaceId] or scripts[game.GameId]
 
---// Loader
 if selectedScript then
     task.spawn(function()
         local success, response = pcall(function()
@@ -288,14 +283,12 @@ if selectedScript then
         end
     end)
 else
-    -- Notify unsupported game
     StarterGui:SetCore("SendNotification", {
         Title = "Unsupported Game",
         Text = "Find Supported Games Here - https://discord.gg/Hhf3gB7RXV",
         Duration = 10
     })
 
-    -- Fallback GUI
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "UniversalScriptPrompt"
     ScreenGui.Parent = playerGui
