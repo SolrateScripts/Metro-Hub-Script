@@ -251,6 +251,10 @@ local scripts = {
     [118915549367482] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dont-Wake-the-Brainrots/refs/heads/main/Dont%20Wake%20the%20Brainrots%20Script',
         name = 'Dont Wake the Brainrots'
+    },
+    [6761020312] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Sword-League/refs/heads/main/Sword%20League%20Script',
+        name = 'Sword League'
     }
 }
 
