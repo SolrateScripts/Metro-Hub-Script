@@ -38,7 +38,7 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
         name = 'Dahood'
     },
-    [126884695634066] = {
+    [7436755782] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-grow-a-garden/refs/heads/main/metrohub%20grow%20a%20garden',
         name = 'Grow a Garden'
     },
