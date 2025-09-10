@@ -170,7 +170,7 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Squid-Game-X/refs/heads/main/Squid%20Game%20X',
         name = 'Squid Game X'
     },
-    [125009265613167] = {
+    [7008097940] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Games',
         name = 'Ink Game'
     },
