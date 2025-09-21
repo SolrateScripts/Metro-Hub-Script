@@ -18,7 +18,7 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
         name = 'Fisch'
     },
-    [142823291] = {
+    [66654135] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-mm2---murder-mystery-2/refs/heads/main/metrohub%20mm2%20-%20murder%20mystery%202',
         name = 'MM2'
     },
