@@ -10,11 +10,7 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arsenal/refs/heads/main/metrohub%20arsenal',
         name = 'Arsenal'
     },
-    [16732694052] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
-        name = 'Fisch'
-    },
-    [131716211654599] = {
+    [5750914919] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-fisch/refs/heads/main/metrohub%20fisch',
         name = 'Fisch'
     },
@@ -54,23 +50,11 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Games',
         name = 'Ink Game'
     },
-    [79546208627805] = {
+    [7326934954] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-99-Nights-In-The-Forest/refs/heads/main/99%20Nights%20In%20The%20Forest%20Script',
         name = '99 Nights In The Forest'
     },
-    [126509999114328] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-99-Nights-In-The-Forest/refs/heads/main/99%20Nights%20In%20The%20Forest%20Script',
-        name = '99 Nights In The Forest'
-    },
-    [96342491571673] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
-        name = 'Steal a Brainrot'
-    },
-    [109983668079237] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
-        name = 'Steal a Brainrot'
-    },
-    [128762245270197] = {
+    [7709344486] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
         name = 'Steal a Brainrot'
     }
