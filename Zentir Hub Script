@@ -77,10 +77,6 @@ local scripts = {
     [11276071411] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-NPC-or-DIE/refs/heads/main/NPC%20or%20DIE%20Script',
         name = 'NPC or DIE'
-    },
-    [3634139746] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Hood-Customs/refs/heads/main/Hood%20Customs%20Script',
-        name = 'Hood Customs'
     }
 }
 
