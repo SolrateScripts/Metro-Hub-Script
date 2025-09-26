@@ -22,18 +22,6 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-mm2---murder-mystery-2/refs/heads/main/metrohub%20mm2%20-%20murder%20mystery%202',
         name = 'MM2'
     },
-    [16981421605] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-reborn-as-swordsman/refs/heads/main/metrohub%20reborn%20as%20swordsman',
-        name = 'Reborn As SwordsMan'
-    },
-    [109652885385286] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dig-the-backyard/refs/heads/main/metrohub%20dig%20the%20backyard',
-        name = 'Dig the Backyard'
-    },
-    [87039211657390] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-arise-crossover/refs/heads/main/metrohub%20arise%20crossover',
-        name = 'Arise Crossover'
-    },
     [2788229376] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dahood/refs/heads/main/metrohub%20dahood',
         name = 'Dahood'
@@ -42,133 +30,25 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-grow-a-garden/refs/heads/main/metrohub%20grow%20a%20garden',
         name = 'Grow a Garden'
     },
-    [85896571713843] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-bubble-gum-simulator-infinity/refs/heads/main/metrohub%20bubble%20gum%20simulator%20infinity',
-        name = 'Bubble Gum Simulator INFINITY'
-    },
     [18687417158] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-forsaken/refs/heads/main/metrohub%20forsaken',
         name = 'Forsaken'
-    },
-    [81440632616906] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-dig-to-earths-core/refs/heads/main/metrohub%20dig%20to%20earths%20core',
-        name = 'Dig to Earths Core'
-    },
-    [6407649031] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-no-scope-arcade/refs/heads/main/metrohub%20no%20scope%20arcade',
-        name = 'No Scope Arcade'
-    },
-    [16177102748] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-no-scope-arcade/refs/heads/main/metrohub%20no%20scope%20arcade',
-        name = 'No Scope Arcade'
-    },
-    [8737899170] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
-        name = 'Pet Simulator 99'
-    },
-    [16498369169] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
-        name = 'Pet Simulator 99'
-    },
-    [95635359880599] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
-        name = 'Pet Simulator 99'
-    },
-    [17503543197] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
-        name = 'Pet Simulator 99'
-    },
-    [119454325063278] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/metrohub-pet-simulator-99/refs/heads/main/pet%20sim%2099',
-        name = 'Pet Simulator 99'
-    },
-    [13827198708] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Pull-a-Sword/refs/heads/main/Pull-a-Sword',
-        name = 'Pull a Sword'
-    },
-    [13127800756] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/MetroHub-Arm-Wrestle-Simulator/refs/heads/main/Arm-Wrestle-Simulator',
-        name = 'Arm Wrestle Simulator'
-    },
-    [114113024880209] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Sisyphus-Training/refs/heads/main/Sisyphus%20Training',
-        name = 'Sisyphus Training'
-    },
-    [101949297449238] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metro-Hub-Build-An-Island-/refs/heads/main/Build%20An%20Island',
-        name = 'Build An Island'
-    },
-    [16498193900] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
-    },
-    [78229412451597] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
-    },
-    [96906678295592] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
-    },
-    [109827788024812] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
-    },
-    [117117046606859] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
-    },
-    [138978527508711] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
-    },
-    [140616130808907] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/Metrohub-Lootify/refs/heads/main/Lootify%20Script',
-        name = 'Lootify'
     },
     [6035872082] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/Zentir-Hub-Rivals/refs/heads/main/Rivals%20Script',
         name = 'Rivals'
     },
-    [123921593837160] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Climb-and-Jump-Tower/refs/heads/main/Climb%20and%20Jump%20Tower%20Script',
-        name = 'Climb and Jump Tower'
-    },
     [10449761463] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-The-Strongest-Battlegrounds/refs/heads/main/The%20Strongest%20Battlegrounds%20Script',
         name = 'The Strongest Battlegrounds'
-    },
-    [18668065416] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Blue-Lock-Rivals/refs/heads/main/Blue%20Lock%3A%20Rivals%20Script',
-        name = 'Blue Lock: Rivals'
     },
     [9872472334] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Evade/refs/heads/main/Evade%20Script',
         name = 'Evade'
     },
-    [135856908115931] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-DUELS-Murderers-VS-Sheriffs/refs/heads/main/Murderers%20VS%20Sheriffs%20Script',
-        name = 'DUELS - Murderers VS Sheriffs'
-    },
     [4348829796] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Murderer-VS-Sheriff-duels/refs/heads/main/Murderer%20VS%20Sheriff%20Duels%20Script',
         name = 'Murderers VS Sheriffs DUELS'
-    },
-    [136755111277466] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Anime-Shadow-2/refs/heads/main/Anime%20Shadow%202%20Script',
-        name = 'Anime Shadow 2'
-    },
-    [7554888362] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Squid-Game-X/refs/heads/main/Squid%20Game%20X',
-        name = 'Squid Game X'
-    },
-    [7559074529] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Squid-Game-X/refs/heads/main/Squid%20Game%20X',
-        name = 'Squid Game X'
-    },
-    [72281377013364] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Squid-Game-X/refs/heads/main/Squid%20Game%20X',
-        name = 'Squid Game X'
     },
     [7008097940] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Ink-Game/refs/heads/main/Ink%20Games',
@@ -181,18 +61,6 @@ local scripts = {
     [126509999114328] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-99-Nights-In-The-Forest/refs/heads/main/99%20Nights%20In%20The%20Forest%20Script',
         name = '99 Nights In The Forest'
-    },
-    [136372246050123] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Stick-Battles/refs/heads/main/Stick%20Battles%20Script',
-        name = 'Stick Battles'
-    },
-    [116495829188952] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dead-Rails/refs/heads/main/Dead%20Rails%20Script',
-        name = 'Dead Rails'
-    },
-    [70876832253163] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dead-Rails/refs/heads/main/Dead%20Rails%20Script',
-        name = 'Dead Rails'
     },
     [96342491571673] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Steal-A-Brainrot/refs/heads/main/Steal%20A%20Brainrot%20Script',
@@ -210,49 +78,9 @@ local scripts = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-NPC-or-DIE/refs/heads/main/NPC%20or%20DIE%20Script',
         name = 'NPC or DIE'
     },
-    [89343390950953] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-My-Singing-Brainrot/refs/heads/main/My%20Singing%20Brainrot%20Script',
-        name = 'My Singing Brainrot'
-    },
-    [70884301843006] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Untitled-Fishing-Game/refs/heads/main/Untitled%20Fishing%20Game%20Script',
-        name = 'Untitled Fishing Game'
-    },
-    [7428819247] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-South-London-Remastered/refs/heads/main/South%20London%20Remastered%20Script',
-        name = 'South London Remastered'
-    },
     [3634139746] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Hood-Customs/refs/heads/main/Hood%20Customs%20Script',
         name = 'Hood Customs'
-    },
-    [5674379281] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Tha-Bronx-3/refs/heads/main/Tha%20Bronx%203%20Script',
-        name = 'Tha Bronx 3'
-    },
-    [7691800287] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Stick-Battles/refs/heads/main/Stick%20Battles%20Script',
-        name = 'Stick Battles'
-    },
-    [7662333120] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Kayak-Racing/refs/heads/main/Kayak%20Racing%20Script',
-        name = 'Kayak Racing'
-    },
-    [8029270163] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-South-London/refs/heads/main/South%20London%20Script',
-        name = 'South London'
-    },
-    [7750955984] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Hunty-Zombie/refs/heads/main/Hunty%20Zombie%20Script',
-        name = 'Hunty Zombie'
-    },
-    [118915549367482] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Dont-Wake-the-Brainrots/refs/heads/main/Dont%20Wake%20the%20Brainrots%20Script',
-        name = 'Dont Wake the Brainrots'
-    },
-    [6761020312] = {
-        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Sword-League/refs/heads/main/Sword%20League%20Script',
-        name = 'Sword League'
     }
 }
 
