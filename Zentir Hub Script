@@ -61,6 +61,10 @@ local scripts = {
     [6701277882] = {
         url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Fish-It/refs/heads/main/Fish%20It%20Script',
         name = 'Fish It'
+    },
+    [8316902627] = {
+        url = 'https://raw.githubusercontent.com/SolrateScripts/ZentirHub-Plants-Vs-Brainrots/refs/heads/main/Plants%20Vs%20Brainrots%20Script',
+        name = 'Plants Vs Brainrots'
     }
 }
 
